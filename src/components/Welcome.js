@@ -4,9 +4,8 @@ const Welcome = ({ name }) => {
   name = "Himanshu";
   return (
     <>
-      <h1>Hey !</h1>
-      <p>{name}</p>
-      <h2>Welcome to School.</h2>
+      <h1>Hey ! {name}</h1>
+      <h2>Welcome to Newton School.</h2>
     </>
   );
 };
